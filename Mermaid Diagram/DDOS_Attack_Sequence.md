@@ -2,8 +2,9 @@
 sequenceDiagram
 participant Attacker
 participant BotNet
-participant WebServer
 participant Firewall
+participant WebServer
+
 
 	Attacker ->> BotNet: Provides IP Address, Port Number, and Packet Type
 	BotNet ->> WebServer: Each Bot sends a request to the webserver with designated input
